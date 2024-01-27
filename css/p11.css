@@ -1,0 +1,154 @@
+.div1{
+    background: url("../image/back2.jfif");
+    height: auto;
+    min-height: 35rem;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.btn1{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 15px;
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+
+}
+.div4{
+    position: relative;
+    left: 20px;
+    top: 80px;
+    animation-name: youssef;
+    animation-duration: 3s;
+}
+@keyframes youssef {
+    from {
+        right: 60px;
+    }
+    to {
+        left: 20px;
+    }
+}
+.p2{
+    padding-right: 780px;
+}
+.div6 , .divdiv{
+    background-image: url("../image/backg.jfif");
+    height: 100%;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background-position: center;
+    background-attachment: scroll;
+
+}
+p {
+    color: rgb(255, 255, 255)
+}
+@media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+      padding: 0;
+    }
+    .masthead h1, .masthead .h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+  .about-section {
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  }
+}
+.go{
+    color: white;
+}
+.divp1{
+    width: 500px;
+    height: 160px;
+    border: 2px solid rgb(79, 0, 226);
+    position: relative;
+    left: 160px;
+    top: -60px;
+}
+.divp3{
+    width: 500px;
+    height: 160px;
+    border: 2px solid rgb(79, 0, 226);
+    position: relative;
+    left:50cap;
+    top: -350px;
+}
+.divp2 , .divp4 {
+    display: flex;
+
+}
+.divp1:hover , .divp3:hover{
+    background: rgb(94, 94, 94);
+    color: #000;
+}
+.img1 , .img2 {
+    width: 160px;
+    height: 160px;
+}
+.img2{
+    position: relative;
+    left: 338px;
+}
+.p1  {
+    padding-right: 200px;
+    top: -170px;
+    position: relative;
+    left: 10px;
+}
+.go {
+    top: -160px;
+    position: relative;
+}
+.pp{
+    padding-left: 200px;
+    top: -170px;
+    position: relative;
+    right: 10px;
+}
+.go2{
+    top: -160px;
+    position: relative;
+    left: 180px;
+}
+.btn2{
+    color: rgb(230, 230, 230);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    height: 40px;
+    position: relative;
+    top: -170px;
+    left: 10px;
+}
+.btn3{
+    color: rgb(230, 230, 230);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    height: 40px;
+    position: relative;
+    top: -170px;
+    left: 400px;
+}
+.divdiv1{
+    border-radius: 40px;
+    width: 400px;
+   margin-right: 500cap;
+   position: relative;
+   top: -440px;
+   height: 700px;
+    
+    
+}
+span{
+    color: white;
+    position: relative;
+    top: -400px;
+    border: 2px solid white;
+}

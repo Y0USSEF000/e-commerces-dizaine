@@ -1,0 +1,132 @@
+.div5{
+    margin-left: 50cap;
+    margin-right: 50cap;
+    box-shadow: 20px 40px 40px rgb(0, 0, 0);
+    border-radius: 30px;
+    height: 300px;
+    background-color:  rgb(102, 100, 100);
+    position: relative;
+    top: 100px;
+    }
+.btn1{
+    margin: 10px;
+    background: transparent;
+    border: 0;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 50px;
+    left: 40px;
+    font-size: 70px;
+    margin: 50px;
+    }
+.btn1:hover{
+    border-bottom: 1px solid rgb(255, 230, 0);
+    color: rgb(255, 230, 0) ;
+    animation-name: youssef;
+    animation-duration: 1.5s;
+    }
+    @keyframes youssef {
+        50% {
+             top: 15px;
+        }
+        100%{
+          top: 50px;
+        }
+      }
+    .p5{
+        font-size: 5rem;
+        position: relative;
+        top: 20rem;
+        text-align: center;
+    }
+    body{
+        background-image: radial-gradient(black ,  rgb(102, 100, 100));
+    }  
+    .div1{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        top: 30rem;
+        margin-bottom: 100px;
+    }
+    img{
+        width: 60rem;
+        height: 40rem;
+        border-radius: 30px;
+    }
+    .div2:hover{
+        animation-name: youssegf;
+        animation-duration: 2s;
+    }
+    @keyframes youssegf {
+        0%{
+            position: relative;
+            top: 0;
+        }
+        50%{
+            position: relative;
+            top: -60px;
+        }
+        100%{
+            position: relative;
+            top: 0;
+        }
+    }
+   h3{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+   }
+   input{
+    width: 40rem;
+    text-align: center;
+    height: 7rem;
+    left: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    position: relative;
+    display: block;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .p44{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -9rem;
+ 
+   }
+   .div4{
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    top: 50rem;
+    box-shadow: 30px 30px 30px black;
+    
+   }
+   .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 30rem;
+    width: 20rem;
+    height: 10rem;
+    margin-bottom: 70px;
+    font-size: 3rem;
+    border-radius: 30px;
+  }
+  
+  .button:hover {
+    background-color: #666;
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }

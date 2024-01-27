@@ -1,0 +1,87 @@
+.div55{
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+position: relative;
+top: 20rem;
+text-align: center;
+
+}
+.poo2{
+  font-size: 5rem;
+}
+.div5{
+    margin-left: 50cap;
+    margin-right: 50cap;
+    box-shadow: 20px 40px 40px rgb(0, 0, 0);
+    border-radius: 30px;
+    height: 300px;
+    background-color:  rgb(102, 100, 100);
+    position: relative;
+    top: 100px;
+    }
+    .btn1{
+        margin: 10px;
+        background: transparent;
+        border: 0;
+        color: rgb(0, 0, 0);
+        position: relative;
+        top: 50px;
+        left: 40px;
+        font-size: 70px;
+        margin: 50px;
+        
+      }
+      .btn1:hover{
+        border-bottom: 1px solid rgb(255, 230, 0);
+        color: rgb(255, 230, 0) ;
+        animation-name: youssef;
+        animation-duration: 1.5s;
+      }
+      @keyframes youssef {
+        50% {
+             top: 15px;
+        }
+        100%{
+          top: 25px;
+        }
+      }
+      body{
+        background-image: radial-gradient(black , rgb(102, 100, 100));
+    }
+    .immg{
+      border-radius: 20px;
+      width: 70rem;
+      height: 70rem;
+      position: relative;
+      top: 50rem;
+      left: 200rem;
+      border: 1px solid black;
+
+    }
+    @media screen and (max-width:2432px) {
+      .btn1{
+       font-size: 50px;
+       margin: 10px;
+       position: relative;
+       top: 90px;
+      }
+      .btn1:hover{
+       animation-name: anos;
+       animation-duration: 2s;
+      }
+      @keyframes anos {
+        0% {
+          top: 90px;
+        }
+        50%{
+          top: 60px;
+        }
+        100%{
+          top: 90px;
+        }
+      }
+    
+    }
+    

@@ -1,0 +1,194 @@
+.btn1{
+  margin: 10px;
+  background: transparent;
+  border: 0;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 25px;
+  font-size: 20px;
+  
+}
+.btn1:hover{
+  border-bottom: 1px solid rgb(255, 230, 0);
+  color: rgb(255, 230, 0) ;
+  animation-name: youssef;
+  animation-duration: 1.5s;
+}
+@keyframes youssef {
+  50% {
+       top: 15px;
+  }
+  100%{
+    top: 25px;
+  }
+}
+
+.div1{
+margin-left: 200px;
+margin-right: 200px;
+box-shadow: 10px 20px 20px rgb(0, 0, 0);
+border-radius: 30px;
+height: 100px;
+background-color:  rgb(102, 100, 100);
+
+}
+.div2{
+  height: 50px;
+  margin-bottom:10px ;
+}
+.poo{
+  position: relative;
+  top: 10px;
+  font-size: 20px;
+}
+.divdiv{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.divdiv1{
+  border: 3px solid  rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 50px;
+  height: 400px;
+  width: 300px;
+  position: relative;
+  top: 80px;
+  color: white;
+
+}
+
+.img1{
+  width: 295px;
+  border-radius: 10px;
+  height: 200px;
+  border-bottom: 2px solid  rgb(0, 0, 0);
+}
+body{
+  background-image: radial-gradient(black ,  rgb(102, 100, 100));
+}
+.btn2{
+color: black;
+border: 1px solid white;
+border-radius: 20px;
+background-color: transparent;
+left: 150px;
+position: relative;
+padding: 10px 10px 10px 10px;
+
+}
+.icon{
+  background-color: rgba(194, 194, 194, 0.774);
+  width: 30rem;
+  height: 20rem;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  top: 120px;
+left: 100px;
+}
+.icon1 , .icon2 , .icon3 , .icon4 , .icon5{
+  width: 60px;
+  margin: 11px;
+  position: relative;
+  height: 50px;
+  top: 200px;
+  right: 75px;
+  border-radius: 50px;
+  flex-wrap: wrap;
+
+}
+.icon1:hover{
+  box-shadow: 0px 5px 20px 0px rgb(199, 4, 199),
+              0px 0px 10px 10px rgb(235, 6, 235);
+              animation-name: youssef11;
+              animation-duration: 1s;
+}
+.icon2:hover , .icon4:hover{
+  box-shadow: 0px 5px 20px 0px rgb(0, 255, 242),
+              0px 0px 10px 10px rgb(3, 126, 143);
+              animation-name: youssef11;
+              animation-duration: 1s;
+}
+.icon3:hover{
+  box-shadow: 0px 5px 20px 0px rgb(163, 161, 1),
+              0px 0px 10px 10px rgb(238, 255, 0);
+              animation-name: youssef11;
+              animation-duration: 1s;
+}
+.icon5:hover{
+  box-shadow: 0px 5px 20px 0px rgb(0, 255, 34),
+              0px 0px 10px 10px rgb(13, 110, 1);
+              animation-name: youssef11;
+              animation-duration: 1s;
+}
+@keyframes youssef11{
+  50%{
+    top: 190px;
+  }
+  100%{
+    top: 200px;
+  }
+}
+.h33{
+  text-align: center;
+  position: relative;
+  left: 10rem;
+  font-size: 40px;
+}
+.k9{
+  position: relative;
+  float: inline-end;
+  margin-right: 30px;
+  animation-name: you;
+  animation-duration: 2s;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+top: -200px;
+}
+@keyframes you {
+  from {
+    color: transparent;
+    top: 200px;
+  }
+  to{
+    color: white;
+    top: 0;
+    top: -200px;
+
+  }
+}
+.ind{
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  top: 400px;
+  align-items: end;
+  overflow: hidden;
+}
+.h3{
+  margin-left: 20px;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width:1432px) {
+.k9{
+  position: relative;
+  top: 200px;
+ float: inline-start;
+  animation-name:ayanakoji ;
+  animation-duration: 6s;
+
+}
+@keyframes ayanakoji {
+  from{
+    background-color: black;
+    
+  }
+  to{
+   background-color: transparent;
+  }
+}
+}
